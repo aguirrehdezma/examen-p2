@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetalleRegalos">
+
+    <ImageView
+        android:id="@+id/iv_regalo_imagen"
+        android:layout_width="284dp"
+        android:layout_height="245dp"
+        android:layout_marginTop="200px"
+        app:srcCompat="@drawable/peluchesony"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/tv_regalo_precio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50px"
+        android:text="$ 0.00"
+        android:textSize="24sp"
+        android:textColor="#E35B6F"
+        android:gravity="center"/>
+</LinearLayout>

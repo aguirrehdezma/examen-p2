@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/iv_header"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Principal">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="214dp"
+        app:srcCompat="@drawable/grupo2" />
+
+    <Button
+        android:id="@+id/btn_detalles"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Detalles"
+        android:textSize="24sp"
+        android:backgroundTint="#E35B6F"/>
+
+    <Button
+        android:id="@+id/btn_globos"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Globos"
+        android:textSize="24sp"
+        android:backgroundTint="#E35B6F"/>
+
+    <Button
+        android:id="@+id/btn_peluches"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Peluches"
+        android:textSize="24sp"
+        android:backgroundTint="#E35B6F"/>
+
+    <Button
+        android:id="@+id/btn_regalos"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Regalos"
+        android:textSize="24sp"
+        android:backgroundTint="#E35B6F"/>
+
+    <Button
+        android:id="@+id/btn_tazas"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Tazas"
+        android:textSize="24sp"
+        android:backgroundTint="#E35B6F"/>
+</LinearLayout>
